@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="820.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vue.CtrlPlanSalleApresSuppr">
+   <children>
+      <HBox layoutX="76.0" prefHeight="100.0" prefWidth="200.0" spacing="15.0" AnchorPane.bottomAnchor="810.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="50.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="70.0" spacing="3.0">
+               <children>
+                  <Label text="B5" />
+                  <Rectangle fx:id="b5" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="70.0">
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </Rectangle>
+               </children>
+               <HBox.margin>
+                  <Insets left="85.0" />
+               </HBox.margin>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="70.0" spacing="3.0">
+               <children>
+                  <Label text="B1" />
+                  <Rectangle fx:id="b1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+               </children>
+               <HBox.margin>
+                  <Insets right="20.0" />
+               </HBox.margin>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="70.0" spacing="3.0">
+               <children>
+                  <Label text="G5" />
+                  <Rectangle fx:id="g5" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="70.0" spacing="3.0">
+               <children>
+                  <Label text="G4" />
+                  <Rectangle fx:id="g4" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="70.0" spacing="3.0">
+               <children>
+                  <Label text="G3" />
+                  <Rectangle fx:id="g3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="70.0" spacing="3.0">
+               <children>
+                  <Label text="G2" />
+                  <Rectangle fx:id="g2" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="70.0" spacing="3.0">
+               <children>
+                  <Label text="G1" />
+                  <Rectangle fx:id="g1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+               </children>
+            </VBox>
+         </children>
+         <padding>
+            <Insets bottom="5.0" left="20.0" right="5.0" top="5.0" />
+         </padding>
+      </HBox>
+      <HBox layoutX="76.0" layoutY="110.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="580.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="150.0">
+         <children>
+            <VBox prefHeight="200.0" prefWidth="720.0">
+               <children>
+                  <HBox prefHeight="100.0" prefWidth="200.0" spacing="15.0">
+                     <children>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="70.0" spacing="3.0">
+                           <children>
+                              <Label text="B9" />
+                              <Rectangle fx:id="b9" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="70.0" spacing="3.0">
+                           <children>
+                              <Label text="B6" />
+                              <Rectangle fx:id="b6" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="70.0" spacing="3.0">
+                           <children>
+                              <Label text="B2" />
+                              <Rectangle fx:id="b2" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                           </children>
+                           <HBox.margin>
+                              <Insets right="20.0" />
+                           </HBox.margin>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="70.0" spacing="3.0">
+                           <children>
+                              <Label text="O9" />
+                              <Rectangle fx:id="o9" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="70.0" spacing="3.0">
+                           <children>
+                              <Label text="O7" />
+                              <Rectangle fx:id="o7" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="70.0" spacing="3.0">
+                           <children>
+                              <Label text="O5" />
+                              <Rectangle fx:id="o5" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="70.0" spacing="3.0">
+                           <children>
+                              <Label text="O3" />
+                              <Rectangle fx:id="o3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="70.0" spacing="3.0">
+                           <children>
+                              <Label text="O1" />
+                              <Rectangle fx:id="o1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                           </children>
+                        </VBox>
+                     </children>
+                     <padding>
+                        <Insets bottom="5.0" left="20.0" right="5.0" top="5.0" />
+                     </padding>
+                  </HBox>
+                  <HBox prefHeight="100.0" prefWidth="200.0" spacing="15.0">
+                     <children>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="70.0" spacing="3.0">
+                           <children>
+                              <Label text="B10" />
+                              <Rectangle fx:id="b10" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="70.0" spacing="3.0">
+                           <children>
+                              <Label text="B7" />
+                              <Rectangle fx:id="b7" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="70.0" spacing="3.0">
+                           <children>
+                              <Label text="B3" />
+                              <Rectangle fx:id="b3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                           </children>
+                           <HBox.margin>
+                              <Insets right="20.0" />
+                           </HBox.margin>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="70.0" spacing="3.0">
+                           <children>
+                              <Label text="O10" />
+                              <Rectangle fx:id="o10" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="70.0" spacing="3.0">
+                           <children>
+                              <Label text="O8" />
+                              <Rectangle fx:id="o8" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="70.0" spacing="3.0">
+                           <children>
+                              <Label text="O6" />
+                              <Rectangle fx:id="o6" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="70.0" spacing="3.0">
+                           <children>
+                              <Label text="O4" />
+                              <Rectangle fx:id="o4" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="70.0" spacing="3.0">
+                           <children>
+                              <Label text="O2" />
+                              <Rectangle fx:id="o2" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                           </children>
+                        </VBox>
+                     </children>
+                     <padding>
+                        <Insets bottom="5.0" left="20.0" right="5.0" top="10.0" />
+                     </padding>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <HBox layoutX="48.0" layoutY="333.0" prefHeight="100.0" prefWidth="200.0" spacing="15.0" AnchorPane.bottomAnchor="480.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="360.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="70.0" spacing="3.0">
+               <children>
+                  <Label text="B8" />
+                  <Rectangle fx:id="b8" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="70.0">
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </Rectangle>
+               </children>
+               <HBox.margin>
+                  <Insets left="85.0" />
+               </HBox.margin>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="70.0" spacing="3.0">
+               <children>
+                  <Label text="B4" />
+                  <Rectangle fx:id="b4" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+               </children>
+               <HBox.margin>
+                  <Insets right="20.0" />
+               </HBox.margin>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="70.0" spacing="3.0">
+               <children>
+                  <Label text="D5" />
+                  <Rectangle fx:id="d5" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="70.0" spacing="3.0">
+               <children>
+                  <Label text="D4" />
+                  <Rectangle fx:id="d4" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="70.0" spacing="3.0">
+               <children>
+                  <Label text="D3" />
+                  <Rectangle fx:id="d3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="70.0" spacing="3.0">
+               <children>
+                  <Label text="D2" />
+                  <Rectangle fx:id="d2" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="70.0" spacing="3.0">
+               <children>
+                  <Label text="D1" />
+                  <Rectangle fx:id="d1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+               </children>
+            </VBox>
+         </children>
+         <padding>
+            <Insets bottom="5.0" left="20.0" right="5.0" top="5.0" />
+         </padding>
+      </HBox>
+      <Label layoutX="168.0" layoutY="-7.0" text="Le plan de la salle suite à la suppression de la réservation :" AnchorPane.leftAnchor="120.0" AnchorPane.topAnchor="10.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Button fx:id="bnFermer" cancelButton="true" layoutX="744.0" layoutY="471.0" mnemonicParsing="false" onAction="#clicFermer" prefWidth="100.0" text="Fermer" AnchorPane.bottomAnchor="20.0" AnchorPane.rightAnchor="20.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vue.CtrlListeReservations">
+   <children>
+      <VBox alignment="TOP_CENTER" layoutX="48.0" layoutY="14.0" prefHeight="95.0" prefWidth="771.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="14.0">
+         <children>
+            <Label prefHeight="68.0" prefWidth="251.0" text="Reservator">
+               <font>
+                  <Font size="45.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="751.0" text="Pour annuler une réservation veuillez sélectionner une réservation en cliquant dessus, puis appuyez sur supprimer" wrapText="true">
+               <VBox.margin>
+                  <Insets left="20.0" right="20.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+      <ScrollPane layoutX="23.0" layoutY="125.0" prefHeight="549.0" prefWidth="814.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="505.0" prefWidth="1575.0">
+               <children>
+                  <TableView fx:id="tvListeReservations" layoutX="14.0" layoutY="14.0" prefHeight="465.0" prefWidth="1500.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+                     <columns>
+                        <TableColumn prefWidth="99.0" text="Date resa" />
+                        <TableColumn minWidth="0.0" prefWidth="140.0" text="Représentation" />
+                        <TableColumn prefWidth="140.0" text="Billets Jeune" />
+                        <TableColumn prefWidth="140.0" text="Billets Senior" />
+                        <TableColumn minWidth="0.0" prefWidth="140.0" text="Billets Groupe" />
+                        <TableColumn prefWidth="140.0" text="Billets Adulte" />
+                        <TableColumn prefWidth="140.0" text="Billets Abonne" />
+                        <TableColumn minWidth="0.0" prefWidth="0.0" text="CA Jeune" />
+                        <TableColumn prefWidth="90.0" text="CA Senior" />
+                        <TableColumn prefWidth="90.0" text="CA Groupe" />
+                        <TableColumn prefWidth="100.0" text="CA Adulte" />
+                        <TableColumn prefWidth="103.0" text="CA Abonne" />
+                        <TableColumn prefWidth="90.0" text="CA total" />
+                        <TableColumn prefWidth="128.0" text="Etat paiement" />
+                     </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+      <Button fx:id="bnAjouter" disable="true" layoutX="780.0" layoutY="141.0" minWidth="100.0" mnemonicParsing="false" text="Ajouter" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="141.0" />
+      <Button fx:id="bnRecherche" alignment="CENTER" contentDisplay="CENTER" layoutX="880.0" layoutY="350.0" minWidth="100.0" mnemonicParsing="false" onAction="#clicRechercher" prefHeight="67.0" prefWidth="100.0" text="Rechercher une autre réservation" wrapText="true" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="350.0" />
+      <Button fx:id="bnModifier" disable="true" layoutX="780.0" layoutY="193.0" minWidth="100.0" mnemonicParsing="false" text="Modifier" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="193.0" />
+      <Button fx:id="bnSupprimer" layoutX="780.0" layoutY="260.0" minWidth="100.0" mnemonicParsing="false" onAction="#clicSupprimer" text="Supprimer" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="260.0" />
+      <Button fx:id="bnFermer" cancelButton="true" layoutX="780.0" layoutY="645.0" minWidth="100.0" mnemonicParsing="false" onAction="#clicFermer" text="Fermer" AnchorPane.bottomAnchor="20.0" AnchorPane.rightAnchor="20.0" />
+   </children>
+</AnchorPane>
